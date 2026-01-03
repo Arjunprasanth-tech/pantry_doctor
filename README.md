@@ -1,16 +1,29 @@
-# pantry_chef
+🩺 PANTRY DOCTOR
 
-A new Flutter project.
+Pantry Doctor is an AI-powered clinical nutrition assistant built with Flutter. It helps patients manage their diet based on medical lab reports, detects food purity via forensic scanning, and generates condition-safe recipes.
 
-## Getting Started
+🚀 Features
 
-This project is a starting point for a Flutter application.
+Medical Report Analysis: Instantly extracts diagnosis and dietary restrictions from lab images.
 
-A few resources to get you started if this is your first Flutter project:
+3-Meal Prescription: Automatically generates a permanent Morning/Lunch/Evening meal plan tailored to your health profile.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Forensic Lab: Uses Gemini 2.5 Flash to scan food samples for purity and adulterants.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Safety Guard: Real-time AI detection to prevent non-edible items from being processed.
+
+Secure ID Card: Professional patient identity profile.
+
+🛠️ Tech Stack
+
+Framework: Flutter
+
+AI Brain: Google Gemini 2.5 Flash
+
+Backend: Firebase (Auth & Firestore)
+
+Security: Dotenv key encryption
+
+🛡️ Security Note
+
+This project uses .env files to store API keys. Ensure you create a local .env file with GEMINI_API_KEY_1 and GEMINI_API_KEY_2 to run the app.
